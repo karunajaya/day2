@@ -1,0 +1,25 @@
+1.write a belong on the diffrence between document and window object
+                  1. document Object:
+
+The document object represents the entire HTML document.
+It is a child of the window object.
+Provides methods and properties to interact with the content of the document, such as accessing and modifying HTML elements, handling events, and manipulating the structure of the document.
+                 2. window Object:
+
+The window object represents the browser window or a frame.
+It is the top-level object in the hierarchy of the browser's JavaScript objects.
+Contains properties and methods related to the browser window, such as the location of the window, history, and methods for opening and closing windows.
+The document object is a property of the window object, so you can access it as window.document or simply document.
+
+2.codekata practise
+                  Sure, CodeKata is a great way to practice coding skills. Here's a simple example of a CodeKata challenge that you can try. This kata is often called "FizzBuzz."for i in range(1, 101):
+   
+ if i % 3 == 0 and i % 5 == 0:
+        print("FizzBuzz")
+    elif i % 3 == 0:
+        print("Fizz")
+    elif i % 5 == 0:
+        print("Buzz")
+    else:
+        print(i)
+
